@@ -3,12 +3,11 @@ Summary:	Patch-product that modifies ObjectManager
 Summary(pl):	Poprawka modyfikuj±ca ObjectManagera
 Name:		Zope-%{zope_subname}
 Version:	1.0
-Release:	2
+Release:	3
 License:	GPL
 Group:		Development/Tools
 Source0:	OrderedFolderSupportPatch.tar.gz
 URL:		http://www.nuxeo.org
-BuildRequires:	python >= 2.2
 Requires(post,postun):	/usr/sbin/installzopeproduct
 %pyrequires_eq	python-modules
 Requires:	Zope >= 2.6
