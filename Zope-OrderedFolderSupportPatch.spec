@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.python
 %define		zope_subname	OrderedFolderSupportPatch
-Summary:	This is a patch-product that modifies ObjectManager
+Summary:	Patch-product that modifies ObjectManager
 Summary(pl):	Poprawka modyfikuj±ca ObjectManagera
 Name:		Zope-%{zope_subname}
 Version:	1.0
@@ -21,7 +21,8 @@ This is a patch-product that modifies ObjectManager to allow folders
 to be ordered by the user.
 
 %description -l pl
-Poprawka modyfikuj±ca dostêp do ObjectManagera przez u¿ytkownika.
+Poprawka modyfikuj±ca ObjectManagera, aby pozwala³ na sortowanie
+folderów przez u¿ytkownika.
 
 %prep
 %setup -q -n %{zope_subname}
