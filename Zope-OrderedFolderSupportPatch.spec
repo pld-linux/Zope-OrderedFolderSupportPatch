@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.python
 %define		zope_subname	OrderedFolderSupportPatch
 Summary:	Patch-product that modifies ObjectManager
 Summary(pl):	Poprawka modyfikuj±ca ObjectManagera
