@@ -9,6 +9,7 @@ Group:		Development/Tools
 Source0:	OrderedFolderSupportPatch.tar.gz
 URL:		http://www.nuxeo.org
 Requires(post,postun):	/usr/sbin/installzopeproduct
+BuildRequires:  python
 %pyrequires_eq	python-modules
 Requires:	Zope >= 2.6
 BuildArch:	noarch
