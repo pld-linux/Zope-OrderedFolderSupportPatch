@@ -3,7 +3,7 @@ Summary:	Patch-product that modifies ObjectManager
 Summary(pl):	Poprawka modyfikuj±ca ObjectManagera
 Name:		Zope-%{zope_subname}
 Version:	1.0
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Tools
 Source0:	OrderedFolderSupportPatch.tar.gz
