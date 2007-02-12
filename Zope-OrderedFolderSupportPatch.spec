@@ -1,6 +1,6 @@
 %define		zope_subname	OrderedFolderSupportPatch
 Summary:	Patch-product that modifies ObjectManager
-Summary(pl.UTF-8):   Poprawka modyfikująca ObjectManagera
+Summary(pl.UTF-8):	Poprawka modyfikująca ObjectManagera
 Name:		Zope-%{zope_subname}
 Version:	1.0
 Release:	3
