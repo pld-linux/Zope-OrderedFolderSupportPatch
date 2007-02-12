@@ -1,6 +1,6 @@
 %define		zope_subname	OrderedFolderSupportPatch
 Summary:	Patch-product that modifies ObjectManager
-Summary(pl):	Poprawka modyfikuj±ca ObjectManagera
+Summary(pl.UTF-8):   Poprawka modyfikujÄ…ca ObjectManagera
 Name:		Zope-%{zope_subname}
 Version:	1.0
 Release:	3
@@ -20,9 +20,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This is a patch-product that modifies ObjectManager to allow folders
 to be ordered by the user.
 
-%description -l pl
-Poprawka modyfikuj±ca ObjectManagera, aby pozwala³ na sortowanie
-folderów przez u¿ytkownika.
+%description -l pl.UTF-8
+Poprawka modyfikujÄ…ca ObjectManagera, aby pozwalaÅ‚ na sortowanie
+folderÃ³w przez uÅ¼ytkownika.
 
 %prep
 %setup -q -n %{zope_subname}
