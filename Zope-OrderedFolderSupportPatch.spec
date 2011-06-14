@@ -7,6 +7,7 @@ Release:	3
 License:	GPL
 Group:		Development/Tools
 Source0:	OrderedFolderSupportPatch.tar.gz
+# Source0-md5:	a036a5c4131d29fe27b195b695036e63
 URL:		http://www.nuxeo.org
 BuildRequires:	python
 BuildRequires:	rpmbuild(macros) >= 1.268
